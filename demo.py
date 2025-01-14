@@ -14,7 +14,7 @@ from lib.models.smpl import SMPL
 from lib.yolo import Yolov7
 
 import os
-os.environ["PYOPENGL_PLATFORM"] = "egl"  # 或 "osmesa"
+os.environ["PYOPENGL_PLATFORM"] = "egl" 
 
 # Yolo model
 DEVICE = 'cpu'
